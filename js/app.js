@@ -20,17 +20,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const readingListItem = document.createElement('li');
     readingListItem.classList.add('reading-list-item');
   
-    const title = document.createElement('h2');
-    title.textContent = form.title.value;
-    readingListItem.appendChild(title);
+    const country = document.createElement('h2');
+    country.textContent = form.country.value;
+    readingListItem.appendChild(country);
   
-    const author = document.createElement('h3');
-    author.textContent = form.author.value;
-    readingListItem.appendChild(author);
+    const date = document.createElement('h3');
+    date.textContent = form.date.value;
+    readingListItem.appendChild(date);
   
-    const category = document.createElement('p');
-    category.textContent = form.category.value;
-    readingListItem.appendChild(category);
+    const currency = document.createElement('p');
+    currency.textContent = form.currency.value;
+    readingListItem.appendChild(currency);
   
     return readingListItem;
   }
